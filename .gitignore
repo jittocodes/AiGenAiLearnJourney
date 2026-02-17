@@ -9,3 +9,9 @@ LL_CourseRepos
 anaconda_projects
 .env
 10 - Agentic AI/langlang
+10 - Agentic AI/data
+11 - AI map/data
+.ipynb_checkpoints
+.idea
+data
+resources

@@ -1,0 +1,196 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.11"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "068372f89824b06dcf36b8bedb118a53",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Path to dataset files: C:\\Users\\Jitto\\.cache\\kagglehub\\datasets\\dylanjcastillo\\7k-books-with-metadata\\versions\\3\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "d6fe1d0be6347b8ef2427fa629c04485",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "ac8619a218eb3cdf27bedc6bf0d5eef6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "b1959710c4b96d90e2f69e08f7d81e80",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "3ee14678a00b23bbdff08212ea6bc288",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "15caa12360ca9dc88d168387f4edd4fd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "ab01ce2c10c837feae313b18a742fdde",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "f42dd6ae2b69412f979253faa4153e4e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "8068807667dc5ff4845bcbe78225053e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "d0784d35c72ca522b2027e03dd4a6af8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "2d9ff2800e9844347ee1b1e13431aceb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "05d962ec2d4926a43fd81668ec4018f2",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "8601f064898a485acaa47a457481757e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "95e089097b35f8706af4ad734f8b5e3c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "5711038396ffeac13a031d7df4faa908",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "'words_in_description'",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\ProgramData\\anaconda3\\envs\\tf-nn-3.11\\Lib\\site-packages\\pandas\\core\\indexes\\base.py&quot;</span>, line <span class=\"m\">3641</span>, in <span class=\"n\">get_loc</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_engine</span><span class=\"o\">.</span><span class=\"n\">get_loc</span><span class=\"p\">(</span><span class=\"n\">casted_key</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;pandas/_libs/index.pyx&quot;</span>, line <span class=\"m\">168</span>, in <span class=\"n\">pandas._libs.index.IndexEngine.get_loc</span>\n  File <span class=\"nb\">&quot;pandas/_libs/index.pyx&quot;</span>, line <span class=\"m\">197</span>, in <span class=\"n\">pandas._libs.index.IndexEngine.get_loc</span>\n  File <span class=\"nb\">&quot;pandas/_libs/hashtable_class_helper.pxi&quot;</span>, line <span class=\"m\">7668</span>, in <span class=\"n\">pandas._libs.hashtable.PyObjectHashTable.get_item</span>\n  File <span class=\"nb\">&quot;pandas/_libs/hashtable_class_helper.pxi&quot;</span>, line <span class=\"m\">7676</span>, in <span class=\"n\">pandas._libs.hashtable.PyObjectHashTable.get_item</span>\n<span class=\"gr\">KeyError</span>: <span class=\"n\">&#39;words_in_description&#39;</span>\n\n<span class=\"gt\">The above exception was the direct cause of the following exception:</span>\n\n<span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\ProgramData\\anaconda3\\envs\\tf-nn-3.11\\Lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">138</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"n\">exec</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">body</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Jitto\\AppData\\Local\\Temp\\marimo_23708\\__marimo__cell_iLit_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">book_missing_25_words</span> <span class=\"o\">=</span> <span class=\"n\">book_missing</span><span class=\"p\">[</span><span class=\"n\">book_missing</span><span class=\"p\">[</span><span class=\"s1\">&#39;words_in_description&#39;</span><span class=\"p\">]</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">25</span><span class=\"p\">]</span>\n<span class=\"w\">                                         </span><span class=\"pm\">~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\ProgramData\\anaconda3\\envs\\tf-nn-3.11\\Lib\\site-packages\\pandas\\core\\frame.py&quot;</span>, line <span class=\"m\">4378</span>, in <span class=\"n\">__getitem__</span>\n<span class=\"w\">    </span><span class=\"n\">indexer</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">columns</span><span class=\"o\">.</span><span class=\"n\">get_loc</span><span class=\"p\">(</span><span class=\"n\">key</span><span class=\"p\">)</span>\n<span class=\"w\">              </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\ProgramData\\anaconda3\\envs\\tf-nn-3.11\\Lib\\site-packages\\pandas\\core\\indexes\\base.py&quot;</span>, line <span class=\"m\">3648</span>, in <span class=\"n\">get_loc</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"ne\">KeyError</span><span class=\"p\">(</span><span class=\"n\">key</span><span class=\"p\">)</span> <span class=\"kn\">from</span><span class=\"w\"> </span><span class=\"nn\">err</span>\n<span class=\"gr\">KeyError</span>: <span class=\"n\">&#39;words_in_description&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "e811274a0c78f033095f9fab089984db",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "2165a3ac278eb64f0d36dac4f79fbeda",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "8b93040d1040d60bf3b50a312995a232",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "5925c8504b44862ba384af051a2fbc6d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "d9bc75e891ba480fd486fc839bd41d83",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "a7ccd79bcadec8593c367f4d2c9d07f4",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "ecf2660d89ea328e8e9a82ac12dc800e",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (KeyError): ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    }
+  ]
+}
