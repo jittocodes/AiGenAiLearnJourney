@@ -15,3 +15,6 @@ anaconda_projects
 .idea
 data
 resources
+.venv
+env
+.env
